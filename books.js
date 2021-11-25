@@ -52,7 +52,6 @@ function priceHTML(originalPrice, salePrice) {
   return `<span class="book__price--normal">£${originalPrice.toFixed(
     2
   )}</span>£${salePrice.toFixed(2)}`;
-  console.log(originalPrice, salePrice);
   //
 }
 
