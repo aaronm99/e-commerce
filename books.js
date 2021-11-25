@@ -12,7 +12,6 @@ async function renderBooks(filter) {
   booksWrapper.classList.remove("books__loading");
 
   if (filter === "LOW_TO_HIGH") {
-    console.log(filter);
     books.sort(
       (a, b) =>
         (a.salePrice || a.originalPrice) - (b.salePrice || b.originalPrice)
